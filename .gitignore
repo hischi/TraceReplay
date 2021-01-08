@@ -10,6 +10,11 @@
 *.userosscache
 *.sln.docstates
 
+# User specific directories
+test_files
+lib/wpcap
+include/wpcap
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
