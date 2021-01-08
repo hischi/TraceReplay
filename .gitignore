@@ -13,7 +13,9 @@
 # User specific directories
 test_files
 lib/wpcap
+lib/spdlog
 include/wpcap
+include/spdlog
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
