@@ -22,6 +22,10 @@
     <ClCompile Include="src\core\Mutex.cpp" />
     <ClCompile Include="src\core\StdTypes.cpp" />
     <ClCompile Include="src\core\Thread.cpp" />
+    <ClCompile Include="src\file\PacketReader.cpp" />
+    <ClCompile Include="src\file\pcapng\PcapNgReader.cpp" />
+    <ClCompile Include="src\file\pcap\PcapReader.cpp" />
+    <ClCompile Include="src\network\PacketSocket.cpp" />
     <ClCompile Include="src\TraceReplay.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -30,6 +34,12 @@
     <ClInclude Include="src\core\Packet.h" />
     <ClInclude Include="src\core\StdTypes.h" />
     <ClInclude Include="src\core\Thread.h" />
+    <ClInclude Include="src\file\PacketReader.h" />
+    <ClInclude Include="src\file\pcapng\PcapNgFormat.h" />
+    <ClInclude Include="src\file\pcapng\PcapNgReader.h" />
+    <ClInclude Include="src\file\pcap\PcapFormat.h" />
+    <ClInclude Include="src\file\pcap\PcapReader.h" />
+    <ClInclude Include="src\network\PacketSocket.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

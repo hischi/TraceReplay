@@ -27,6 +27,18 @@
     <ClCompile Include="src\core\Thread.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="src\file\PacketReader.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\file\pcap\PcapReader.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\file\pcapng\PcapNgReader.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\PacketSocket.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\core\Mutex.h">
@@ -43,6 +55,24 @@
     </ClInclude>
     <ClInclude Include="src\core\Packet.h">
       <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\file\pcapng\PcapNgFormat.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\file\pcapng\PcapNgReader.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\file\pcap\PcapFormat.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\file\pcap\PcapReader.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\file\PacketReader.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\PacketSocket.h">
+      <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
